@@ -4,21 +4,13 @@ module.exports = {
         parser: "@typescript-eslint/parser",
         sourceType: "module",
     },
-    extends: [
-        "eslint:recommended",
-        "plugin:@typescript-eslint/recommended",
-        "plugin:vue/vue3-recommended",
-        "prettier"
-    ],
-    plugins: [
-        "@typescript-eslint"
-    ],
+    extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:vue/vue3-recommended", "prettier"],
+    plugins: ["@typescript-eslint", "jest"],
     rules: {
-        quotes: ["error", "double"]
+        quotes: ["error", "double"],
     },
-    ignorePatterns: [
-        ".eslintrc.js",
-        "src/shims-vue.d.ts",
-        "node_modules/"
-    ]
-}
+    env: {
+        "jest/globals": true,
+    },
+    ignorePatterns: [".eslintrc.js", "src/shims-vue.d.ts", "node_modules/"],
+};
