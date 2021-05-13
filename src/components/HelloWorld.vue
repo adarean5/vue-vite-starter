@@ -32,6 +32,8 @@
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
+
+  <p :class="$style.cssModuleTest">Test css modules</p>
 </template>
 
 <script lang="ts">
@@ -51,7 +53,12 @@ export default defineComponent({
 })
 </script>
 
-<style scoped>
+<style module lang="scss">
+.cssModuleTest {
+  color: white;
+  background: #304455;
+}
+
 a {
   color: #42b983;
 }
