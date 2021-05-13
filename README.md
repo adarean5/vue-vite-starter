@@ -6,6 +6,7 @@ The main purpose of this project is to reduce the time necessary to scaffold a n
 ## Features overview
 
 * Vue 3
+* Vue Router
 * Typescript support
 * [Vite](https://vitejs.dev/)
 * CSS modules and SCSS support
