@@ -7,11 +7,14 @@ The main purpose of this project is to reduce the time necessary to scaffold a n
 
 * Vue 3
 * Vue Router
+* Vuex
 * Typescript support
 * [Vite](https://vitejs.dev/)
 * CSS modules and SCSS support
 * Error checking with ESLint and code formatting with Prettier
 * Unit testing with Jest
+* TODO: E2E testing
+* TODO (maybe): Git hooks
 
 ## Installation Usage
 
